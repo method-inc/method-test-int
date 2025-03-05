@@ -1,0 +1,14 @@
+{
+  "name": "method-test-interview",
+  "version": "1.0.0",
+  "description": "Sample repo for Method Test engineers",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "author": "Brent Sessions",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1"
+  }
+}
