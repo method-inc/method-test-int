@@ -1,4 +1,8 @@
-# Tasks
+# Method Test Engineering 
+This Repo contains two simple tests that validate a test website. 
+
+## Tasks
+
 1. Run the tests
 2. Fix any failing tests
 3. Identify and discuss changes that could be made to optimize or improve the existing tests.
