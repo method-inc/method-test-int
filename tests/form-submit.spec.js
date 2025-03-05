@@ -21,6 +21,6 @@ test('submit contact form unsuccessfully', async ({ page }) => {
   await page.getByLabel( 'Email' ).fill( 'super@fakeemail.com' );
   await page.getByLabel( 'Phone' ).fill( '8655555555' );
   await page.getByTestId( 'ContactSubject' ).fill( 'I want to stay here!' );
-  await page.locator( '.description' ).fill( 'I want to come visit' );
+  await page.locator( '.description' ).fill( 'I want to visit' );
   await page.getByRole( 'button', { name: 'Submit' } ).click();
 });
