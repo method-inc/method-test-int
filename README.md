@@ -22,3 +22,6 @@ Run tests
 
 Run tests in visible browser
 `npm run test -- --headed`
+
+Run tests in Playwright UI
+`npm run test -- --ui`
